@@ -1,0 +1,12 @@
+II. Write the expected output of the following code.
+
+Expected Output:
+
+x is 5.
+x is -3.
+Huh?
+Again?
+What Now?
+Unswa?!
+x is -2147483647.
+48 49 50 51 52 53 54 55 56 57

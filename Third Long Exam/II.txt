@@ -1,0 +1,2 @@
+II. (10 points) Evaluate the following items. Write the values of x. Write the values of a, b and c whenever
+their values change. Assume that a = 10, b = -3, c = 5, all integers, including x.

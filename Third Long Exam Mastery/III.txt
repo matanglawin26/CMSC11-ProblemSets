@@ -1,0 +1,14 @@
+III. Write the expected output of the following snippets of code:
+
+1. NULL (No output)
+
+2. 
+0 0
+0 1
+0 2
+1 1
+1 2
+2 2
+
+3. Undeclared identifier 'j'.
+

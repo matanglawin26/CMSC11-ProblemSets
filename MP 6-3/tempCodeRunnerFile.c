@@ -1,0 +1,1 @@
+printf("Note that, in this scenario, the sequence of fibonacci numbers starts at 0 (n1 = 0)\n");

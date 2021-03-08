@@ -1,0 +1,15 @@
+IV. Study the code below. Is the solution correct or not? Explain your answer. It is supposed to check
+whether an input (unsigned int) is a perfect number or not.
+
+Although the program or the solution is correct, since the if statement that tests "sum == n && sum != 1"
+is inside the for loop, then it would iterate the printf() function for as long as the condition
+"cf*cf<=n" is satisfied. Because of that condition, even if you enter a valid perfect number, take 16 for example, 
+it will output "16 is not a perfect number" during the first few iterations because the condition 
+"sum == n && sum != 1" is still not yet met. However, in the final iteration, it will output "16 is a
+perfect number", which is the correct and desired output. As such, it would have been better to move the
+final if-else statement "sum == n && sum != 1" after the for loop.
+
+Furthermore, since the if-else statement "sum == n && sum != 1" is written inside the for loop, it will not
+test the inputs less than 4. If try to input these, you will notice that the program terminates immediately
+without printing anything or any output. It is because the condition to "enter" or start the for loop is not
+met. Nonetheless, the program shows a correct solution.
